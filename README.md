@@ -1,3 +1,5 @@
+## Testversion of this development. All credits to original authors. Download the ORIGINAL, not this one.
+
 ![Logo](admin/zendure-solarflow.png)
 
 # ioBroker.zendure-solarflow

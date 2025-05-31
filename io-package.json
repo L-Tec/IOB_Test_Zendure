@@ -1,0 +1,178 @@
+{
+  "common": {
+    "name": "zendure-solarflow",
+    "version": "1.13.1",
+    "news": {
+      "1.13.1": {
+        "en": "TEST: Set Smart CT Mode and Smart Matching Mode correctly - Feedback needed!\nRemoved efficiency from calculation, as it seems Zendure already included it in charge and discharge values",
+        "de": "TEST: Setzen Sie Smart CT Modus und Smart Matching Modus richtig - Feedback erforderlich!\nEntzogene Effizienz von der Berechnung, wie es scheint, Zendure bereits in die Gebühren- und Entladewerte enthalten",
+        "ru": "TEST: Установите режим Smart CT и режим Smart Matching правильно - обратная связь необходима!\nСнята эффективность с расчетов, так как, похоже, Zendure уже включила в него значения заряда и разряда",
+        "pt": "TEST: Defina o modo Smart CT e o modo Smart Matching corretamente - Feedback necessário!\nEficiência removida do cálculo, pois parece que Zendure já o incluiu nos valores de carga e descarga",
+        "nl": "TEST: Smart CT-modus en Smart Matching-modus correct instellen - feedback nodig!\nVerwijderde efficiëntie van de berekening, zoals het lijkt Zendure al opgenomen in de leiding en kwijting waarden",
+        "fr": "ESSAI: Réglez le mode CT intelligent et le mode de correspondance intelligent correctement - Feedback nécessaire!\nEfficience supprimée du calcul, comme il semble que Zendure l'ait déjà inclus en charge et valeurs de décharge",
+        "it": "TEST: Impostare la modalità Smart CT e la modalità Smart Matching correttamente - Feedback necessario!\nEfficienza eliminata dal calcolo, come sembra Zendure già incluso in carica e valori di scarico",
+        "es": "TEST: Set Smart CT Mode y Smart Matching Mode correctamente - ¡Retroalimentación necesaria!\nEficiencia eliminada del cálculo, ya que parece que Zendure ya lo incluyó a cargo y valores de descarga",
+        "pl": "TEST: Ustaw tryb inteligentnego CT i tryb inteligentnego dopasowywania poprawnie - wymagane informacje zwrotne!\nUsunięto wydajność z obliczeń, jak wydaje się, że Zabb już włączył go do opłat i wartości zrzutu",
+        "uk": "TEST: Встановити розумний режим КТ і розумний режим матчу - Зворотній зв'язок потрібно!\nВилучена ефективність з розрахунку, так як вона здається Zendure вже включена до його заряду та значень розряду",
+        "zh-cn": "TEST: 正确设置智能 CT 模式和智能匹配模式 - 需要反馈 !\n从计算中取消了效率,因为看来Zendure已经包括了它负责和排放值"
+      },
+      "1.13.0": {
+        "en": "Add possibility to deactivate automatic restart of adapter in adapter settings (recommended only on local mode!)\nFixed missing control state \"hubState\"",
+        "de": "Möglichkeit hinzufügen, den automatischen Neustart des Adapters in Adaptereinstellungen zu deaktivieren (nur im lokalen Modus eingeschaltet!)\nFester fehlender Kontrollzustand \"hubState\"",
+        "ru": "Добавить возможность отключения автоматического перезапуска адаптера в настройках адаптера (рекомендуется только в локальном режиме!)\nИсправлено отсутствующее государство контроля «HubState»",
+        "pt": "Adicione a possibilidade de desativar o reinício automático do adaptador nas configurações do adaptador (recomendado apenas no modo local!)\nEstado de controle ausente fixo \"hubState\"",
+        "nl": "Voeg mogelijkheid toe om de automatische herstart van de adapter in adapterinstellingen te deactiveren (alleen aanbevolen op lokale modus!)\nVaste ontbrekende controlestatus \"hubState\"",
+        "fr": "Ajouter la possibilité de désactiver le redémarrage automatique de l'adaptateur dans les paramètres de l'adaptateur (recommandé uniquement en mode local!)\nÉtat de contrôle manquant fixe \"hubState\"",
+        "it": "Aggiungi la possibilità di disattivare il riavvio automatico dell'adattatore nelle impostazioni dell'adattatore (consigliato solo in modalità locale!)\nStato di controllo mancante fisso \"hubState\"",
+        "es": "Añadir posibilidad de desactivar el reinicio automático del adaptador en la configuración del adaptador (recomendado sólo en el modo local!)\nEstado de control perdido fijo \"hubState\"",
+        "pl": "Dodaj możliwość wyłączenia automatycznego restartu adaptera w ustawieniach adaptera (zalecane tylko w trybie lokalnym!)\nNaprawiono brakujący stan kontroli \"hubState\"",
+        "uk": "Додайте можливість деактивувати автоматичний перезапуск адаптера в налаштуваннях адаптера (відповіли тільки на локальному режимі!)\nВиправлено відсутній контрольний стан \"hubState\"",
+        "zh-cn": "添加在适配器设置中解除适配器自动重新启动的可能性( 仅在本地模式上推荐 !)\n固定缺失控制状态“ hubstate”"
+      },
+      "1.12.7": {
+        "en": "Add productKey \"gDa3tb\" for Hyper 2000",
+        "de": "Produkt hinzufügen Schlüssel \"gDa3tb\" für Hyper 2000",
+        "ru": "Добавить продукт Ключ «gDa3tb» для Hyper 2000",
+        "pt": "Adicionar produto Chave \"gDa3tb\" para Hyper 2000",
+        "nl": "Product toevoegen Sleutel \"gDa3tb\" voor Hyper 2000",
+        "fr": "Ajouter le produit Clé « gDa3tb » pour Hyper 2000",
+        "it": "Aggiungi il prodotto Chiave \"gDa3tb\" per Hyper 2000",
+        "es": "Añadir producto Clave \"gDa3tb\" para Hyper 2000",
+        "pl": "Dodaj produkt Klucz \"gDa3tb\" dla Hyper 2000",
+        "uk": "Додати товар Ключ \"gDa3tb\" для Hyper 2000",
+        "zh-cn": "添加产品 Hyper 2000 的密钥“ gDa3tb ”"
+      },
+      "1.12.6": {
+        "en": "Fix onMessage Debug message",
+        "de": "Fix onMessage Debug-Nachricht",
+        "ru": "Отправить сообщение Message Debug",
+        "pt": "Corrigir mensagem de depuração na mensagem",
+        "nl": "OnMessage-debugbericht herstellen",
+        "fr": "Correction du message de débogage surMessage",
+        "it": "Fissare il messaggio Debug suMessage",
+        "es": "Corregir el mensaje de depuración de mensajes",
+        "pl": "Popraw wiadomość o debugowaniu wiadomości",
+        "uk": "Виправлення onMessage Debug повідомлення",
+        "zh-cn": "在 Message 调试消息上修正"
+      },
+      "1.12.5": {
+        "en": "Add Debug messages on log level debug\nAdd schedule for adapter refresh on local mode\nFix Change of Discharge limit to 0",
+        "de": "Debug-Nachrichten auf Log-Level-Debug hinzufügen\nZeitplan für Adapter-Erfrischung im lokalen Modus hinzufügen\nFix Änderung der Entladungsgrenze auf 0",
+        "ru": "Добавление сообщений Debug на уровне журнала\nДобавить расписание обновления адаптера в локальном режиме\nИзменение предела разряда до 0",
+        "pt": "Adicionar mensagens de depuração no nível de log debug\nAdicionar programação para atualização do adaptador no modo local\nCorrigir a mudança do limite de descarga para 0",
+        "nl": "Debug-berichten toevoegen op logniveau debug\nSchema voor adapterverversen toevoegen in lokale modus\nFix Wijziging van de ontladingslimiet naar 0",
+        "fr": "Ajouter des messages de débogage au niveau de log debug\nAjouter l'horaire pour le rafraîchissement de l'adaptateur en mode local\nCorrection du changement de la limite de décharge à 0",
+        "it": "Aggiungi messaggi Debug sul debug del livello di log\nAggiungi il programma di aggiornamento adattatore in modalità locale\nCambiamento di limite di scarico a 0",
+        "es": "Agregar mensajes de Debug en el nivel de registro\nAñada el horario de actualización del adaptador en modo local\nCambio fijo de límite de descarga a 0",
+        "pl": "Dodaj komunikaty o debugowaniu na poziomie dziennika\nDodaj harmonogram odświeżania adaptera w trybie lokalnym\nNapraw limit zrzutu do 0",
+        "uk": "Додавання повідомлень Debug на рівні входу\nДодавання графіка оновлення адаптера в локальному режимі\nЗміна ліміту розряду до 0",
+        "zh-cn": "在日志级别调试时添加调试消息\n在本地模式下添加适配器刷新时间表\n将排放限制改为 0"
+      },
+      "1.12.4": {
+        "en": "Fix calculation of SOC if \"local\" mode is used",
+        "de": "Fixe Berechnung von SOC, wenn \"lokal\" Modus verwendet wird",
+        "ru": "Исправьте расчет SOC, если используется «местный» режим",
+        "pt": "Corrigir o cálculo do SOC se o modo \"local\" for usado",
+        "nl": "Berekening van SOC repareren als de \"lokale\" modus wordt gebruikt",
+        "fr": "Correction du calcul de SOC si le mode \"local\" est utilisé",
+        "it": "Fissare il calcolo di SOC se viene utilizzata la modalità \"locale\"",
+        "es": "Cálculo fijo de SOC si se utiliza el modo \"local\"",
+        "pl": "Popraw obliczanie SOC, jeśli używany jest tryb \"lokalny\"",
+        "uk": "Фіксований розрахунок СОУ, якщо використовується режим «локального»",
+        "zh-cn": "如果使用“ 本地” 模式, 固定 SOC 的计算"
+      },
+      "1.12.3": {
+        "en": "Add 2 more devices if \"local\" mode is used\nFix mqtt subscription of 2. device in \"local\" mode",
+        "de": "Fügen Sie 2 weitere Geräte hinzu, wenn \"lokal\" Modus verwendet wird\nFix mqt Abonnement von 2. Gerät im \"lokalen\" Modus",
+        "ru": "Добавьте еще 2 устройства, если используется «местный» режим\nИсправьте mqtt подписку на 2. устройство в «местном» режиме",
+        "pt": "Adicione mais 2 dispositivos se o modo \"local\" for usado\nCorrigir assinatura mqtt de 2. dispositivo no modo \"local\"",
+        "nl": "Voeg nog 2 apparaten toe als de \"lokale\" modus wordt gebruikt\nFix mqtt abonnement van 2. apparaat in \"lokale\" modus",
+        "fr": "Ajouter 2 autres appareils si le mode \"local\" est utilisé\nCorrection de l'abonnement mqtt de 2. appareil en mode \"local\"",
+        "it": "Aggiungere altri 2 dispositivi se viene utilizzata la modalità \"locale\"\nAbbonamento fisso di mqtt 2. dispositivo in modalità \"locale\"",
+        "es": "Añadir 2 dispositivos más si se utiliza el modo \"local\"\nFijar la suscripción de mqtt de 2. dispositivo en modo \"local\"",
+        "pl": "Dodaj 2 więcej urządzeń w trybie \"lokalnym\"\nNapraw subskrypcję mqtt 2. urządzenia w trybie \"lokalnym\"",
+        "uk": "Додайте ще 2 пристрої, якщо використовується режим \"локального\"\nВиправлення mqtt підписки 2. пристрій в режимі \"локальний\"",
+        "zh-cn": "如果使用“ 本地” 模式, 将增加两个设备\n在“ 本地” 模式下修复 mqtt 订阅 2 设备"
+      }
+    },
+    "titleLang": {
+      "en": "Zendure Solarflow",
+      "de": "Zendure Solarflow",
+      "ru": "Зендуре Соларфлоу",
+      "pt": "Zendure Solarflow",
+      "nl": "Zendure Solarflow",
+      "fr": "Flux solaire Zendure",
+      "it": "Zendur Solarflow",
+      "es": "Zendure Solarflow",
+      "pl": "Zendure Solarflow",
+      "uk": "Zendure Solarflow",
+      "zh-cn": "Zendure Solarflow"
+    },
+    "desc": {
+      "en": "zendure-solarflow",
+      "de": "Zendure-Solarflow",
+      "ru": "Zendure-Solarflow",
+      "pt": "zendure-solarflow",
+      "nl": "zendure-solarflow",
+      "fr": "zendure-solarflow",
+      "it": "zendure-solarflow",
+      "es": "flujo-solar-zendure",
+      "pl": "zendure-solarflow",
+      "uk": "zendure-solarflow",
+      "zh-cn": "zendure-solarflow"
+    },
+    "authors": [
+      "Peter <peter.frommert@outlook.com>"
+    ],
+    "keywords": [
+      "Zendure",
+      "Solarflow"
+    ],
+    "licenseInformation": {
+      "license": "GPL-3.0-only",
+      "type": "free"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "zendure-solarflow.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/nograx/ioBroker.zendure-solarflow/main/admin/zendure-solarflow.png",
+    "readme": "https://github.com/nograx/ioBroker.zendure-solarflow/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "energy",
+    "tier": 2,
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "materialize"
+    },
+    "eraseOnUpload": true,
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.0.0"
+      }
+    ]
+  },
+  "native": {
+    "userName": "",
+    "server": "global",
+    "useCalculation": false,
+    "useLowVoltageBlock": false,
+    "dischargeLimit": 10,
+    "useRestart": true
+  },
+  "encryptedNative": [
+    "password"
+  ],
+  "protectedNative": [
+    "password"
+  ],
+  "objects": [],
+  "instanceObjects": []
+}
